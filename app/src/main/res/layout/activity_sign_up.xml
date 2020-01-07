@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/sky"
+    tools:context=".SignUp">
+
+
+    <EditText
+        android:id="@+id/Email_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/Password_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:hint="Enter Password"
+        />
+
+    <Button
+        android:id="@+id/Registration_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/sky"
+
+        />
+</LinearLayout>

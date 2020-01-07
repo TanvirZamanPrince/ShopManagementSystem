@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sky"
+    tools:context=".SellsPage">
+
+
+    <EditText
+        android:id="@+id/S_code_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_product_code"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/S_quantity_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:hint="@string/enter_product_quantity"
+        />
+
+    <Button
+        android:id="@+id/Sells_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sells"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/sky"
+
+        />
+
+</LinearLayout>
